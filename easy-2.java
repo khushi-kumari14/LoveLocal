@@ -3,6 +3,13 @@
  *     int val = value of the node addressed.
  *     TreeNode left = left node/subtree of the tree.
  *     TreeNode right = right node/subtree of the tree.
+    Logic of the code - 
+    -> Firstly I've handled the base case which is if the array provided is empty the code will return null.
+    -> Then I created a helper function which takes 3 arguments - array, the first element (smallest), and the last element (largest).
+    -> The helper function finds the middle element and creates a new node out of it.
+    -> Then the helper function recursively calls the function taking the first half of the array as one and the second half as one.
+    -> The solution is the Divide and Conquer type of technique.
+    -> I added the main function to test the code on different types of test cases.
  */
 class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
