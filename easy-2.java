@@ -22,4 +22,20 @@ class Solution {
         node.right = helper(nums, mid + 1, high);
         return node;
     }
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        
+        int[] testCase1 = {};
+        TreeNode result1 = solution.sortedArrayToBST(testCase1);
+        System.out.println("Test Case 1 Result: " + result1);
+
+        
+        int[] testCase2 = {1, 2, 3, 4, 5, 6, 7};
+        TreeNode result2 = solution.sortedArrayToBST(testCase2);
+        System.out.println("Test Case 2 Result: " + result2);
+
+        int testCase3 = {-10,-3,0,5,9};
+        TreeNode result3 = solution.sortedArraytoBST(testCase3);
+        System.out.println("Test Case 3 result: " + result3);
+    }
 }
