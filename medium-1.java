@@ -1,11 +1,8 @@
 /**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
+ *     Variables and definitions used in the code and its meaning.
+ *     int val = value of the node addressed.
+ *     TreeNode left = left node/subtree of the tree.
+ *     TreeNode right = right node/subtree of the tree.
  */
 
 class Solution {
